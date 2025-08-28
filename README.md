@@ -180,40 +180,23 @@ BBMMPP__PPrroocceessssoorr
     4. 승인/거부 결정
     5. 구현 및 검증
     6. 형상 업데이트
-    7. 추적성 매트릭스
 
-요구사항 ID
-설계 요소
-코드 구현
-테스트 케이스
-HLR-001
-File_Validator
-fread(), 헤더 검증
-TC-001, TC-002, TC-003
-HLR-002
-Color_Converter
-rgbToGrayscale()
-TC-001
-HLR-003
-Output_Generator
-BMP 생성 루틴
-TC-001
-HLR-004
-Memory_Manager
-malloc(), free()
-TC-004
-HLR-005
-Error_Handler
-오류 처리 루틴
-TC-002~TC-005
-
-
+### 7. 추적성 매트릭스
+
+ | 요구사항 ID |  설계 요소 | 코드 구현 | 테스트 케이스 | 
+ | HLR-001 | File_Validator | fread(), 헤더 검증 | TC-001, TC-002, TC-003 | 
+ | HLR-002 | Color_Converter | rgbToGrayscale() | TC-001 | 
+ | HLR-003 | Output_Generator | BMP 생성 루틴 | TC-001 | 
+ | HLR-004 | Memory_Manager | malloc(), free() | TC-004 | 
+ | HLR-005 | Error_Handler | 오류 처리 루틴 | TC-002~TC-005 | 
 
 ### 8. 인증 결론
-본 BMP 그레이스케일 변환 소프트웨어는 DO-178C DAL-D 수준의 요구사항을 충족하도록 설계 및 구현되었습 니다. 모든 필수 문서가 작성되었으며, 계획된 검증 활동을 통해 소프트웨어의 안전성과 신뢰성이 입증될 것입니 다.
-승인:
-개발팀장: ________________
-품질보증 관리자: ________________
-인증 담당자: ________________
+   * 본 BMP 그레이스케일 변환 소프트웨어는 DO-178C DAL-D 수준의 요구사항을 충족하도록 설계 및 구현되었습 니다.
+   * 모든 필수 문서가 작성되었으며, 계획된 검증 활동을 통해 소프트웨어의 안전성과 신뢰성이 입증될 것입니 다.
+
+## 승인:
+   * 개발팀장: ________________
+   * 품질보증 관리자: ________________
+   * 인증 담당자: ________________
 날짜:
 2025년 8월 28일
