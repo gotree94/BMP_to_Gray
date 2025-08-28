@@ -184,6 +184,7 @@ BBMMPP__PPrroocceessssoorr
 ### 7. 추적성 매트릭스
 
  | 요구사항 ID |  설계 요소 | 코드 구현 | 테스트 케이스 | 
+ |-----|-----|-----|-----|
  | HLR-001 | File_Validator | fread(), 헤더 검증 | TC-001, TC-002, TC-003 | 
  | HLR-002 | Color_Converter | rgbToGrayscale() | TC-001 | 
  | HLR-003 | Output_Generator | BMP 생성 루틴 | TC-001 | 
