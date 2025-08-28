@@ -1,7 +1,7 @@
 # BMP 이미지 그레이스케일 변환 소프트웨어
 
 [brainct_001.bmp](https://github.com/user-attachments/files/22015999/brainct_001.bmp)
-
+[image1]: [이미지주소.jpg](https://github.com/user-attachments/files/22015999/brainct_001.bmp) "이미지 제목"
 
 ## 문서 관리 정보
  - 문서 ID: BMP-DO178C-001
