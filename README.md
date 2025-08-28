@@ -7,11 +7,11 @@
  - 문서 ID: BMP-DO178C-001
  - 버전: 1.0 / 날짜: 2025년 8월 28일
  - 분류: 설계 보증 레벨 D (DAL-D)
- - 시스템: 항공 디스플레이 처리 장치
+ - 시스템: 의료용 반도체 검증 환경용용
 
 ### 1. 소프트웨어 인증 계획서 (PSAC)
 #### 1.1 소프트웨어 개요
- - 소프트웨어 항목: BMP 그레이스케일 변환기 기능: 항공 디스플레이 시스템용 24비트 컬러 BMP 이미지를 8비트
+ - 소프트웨어 항목: BMP 그레이스케일 변환기 기능: 의료용 반도체 시스템용 24비트 컬러 BMP 이미지를 8비트
  - 그레이스케일로 변환 중요도 레벨: DAL-D (경미한 고장 상황)
 
 #### 1.2 소프트웨어 생명주기 프로세스
@@ -71,6 +71,7 @@
 ### 3. 소프트웨어 설계 표준 (SDS)
 #### 3.1 아키텍처 설계
    * 모듈 구조:
+~~~
 BBMMPP__PPrroocceessssoorr
 ├├──── FFiillee__HHaannddlleerr
 ││  ├├──── IInnppuutt__VVaalliiddaattoorr
@@ -79,6 +80,7 @@ BBMMPP__PPrroocceessssoorr
 ││  ├├──── CCoolloorr__CCoonnvveerrtteerr
 ││  └└──── MMeemmoorryy__MMaannaaggeerr
 └└──── EErrrroorr__HHaannddlleerr
+~~~
 
 #### 3.2 상세 설계
  * 구조체 정의:
