@@ -1,6 +1,6 @@
 # BMP 이미지 그레이스케일 변환 소프트웨어
 
-<img width="630" height="630" alt="brainct_001" src="https://github.com/user-attachments/assets/4510de33-4e68-45fc-978e-d9cec78e96e1" />
+<img width="320" height="320" alt="brainct_001" src="https://github.com/user-attachments/assets/4510de33-4e68-45fc-978e-d9cec78e96e1" />
 
 ## 문서 관리 정보
  - 문서 ID: BMP-DO178C-001
